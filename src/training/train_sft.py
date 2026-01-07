@@ -1,7 +1,7 @@
 import os
 import torch
 from transformers import (
-    AutoModelForCausalLM,
+    AutoModelForCausalLM,  # 自动根据名称加载不同的模型
     AutoTokenizer,
     TrainingArguments,
     BitsAndBytesConfig
