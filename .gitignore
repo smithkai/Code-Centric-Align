@@ -1,1 +1,12 @@
 data/
+models/
+# 排除所有 DeepSpeed 的检查点
+checkpoint-*/
+
+# 额外保险：排除常见的权重后缀
+*.pt
+*.bin
+*.pth
+*.safetensors
+*.ckpt
+
