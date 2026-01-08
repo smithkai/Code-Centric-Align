@@ -10,3 +10,9 @@ checkpoint-*/
 *.safetensors
 *.ckpt
 
+# Vim swap files
+*.swp
+*.swo
+.sw?
+
+
