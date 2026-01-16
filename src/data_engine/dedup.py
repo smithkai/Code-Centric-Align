@@ -83,4 +83,4 @@ class RigorousDedup:
 if __name__ == "__main__":
     # 工业界常用阈值 0.85
     deduplicator = RigorousDedup(threshold=0.85)
-    deduplicator.process("data/processed/magicoder_cleaned.jsonl", "data/processed/magicoder_final.jsonl")
+    deduplicator.process("data/raw/magicoder_raw.jsonl", "data/processed/magicoder_final.jsonl")
