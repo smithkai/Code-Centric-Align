@@ -1,5 +1,9 @@
 data/
 models/
+wandb/
+bigcode-evaluation-harness
+
+
 # 排除所有 DeepSpeed 的检查点
 checkpoint-*/
 
@@ -16,3 +20,4 @@ checkpoint-*/
 .sw?
 
 
+.ipynb_checkpoints/
